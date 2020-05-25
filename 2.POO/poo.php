@@ -35,5 +35,14 @@ $c -> marca = "Hyundai";
 $c -> modelo = "Accent Vission";
 $c -> mostrar();
 
+#Principios de la POO que se cumplen en este ejemplo:
+
+#ABSTRACCION: Nuevos tipos de datos,(El que desee, puedo crearlo).
+#ENCAPSULACION: Organizar el codigo en grupos logicos.
+#Ocultamiento: Ocultar detalles de implementacion y exponer solo los detalles que sean necesarios para el resto del sistema. 
+
+
+
+#Codear en imperativo es muy vulnerable, el poo es mucho mas fuerte
 
 ?>
