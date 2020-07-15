@@ -14,6 +14,4 @@ require_once "modelos/model.php";
 
 $mvc = new mvcController();
 $mvc -> plantilla();
-
-
 ?>

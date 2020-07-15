@@ -13,16 +13,18 @@ class mvcController
 	#-------------------------------------------------------
 	public function enlacePaginasController()
 	{
-		$enlacesController = $_GET["action"];
+		if(isset($_GET["action"]))
+		{
+			$enlacesController = $_GET["action"];
+		}
+		else
+		{
+			$enlacesController = "index";	
+		}
 
 		$respuesta = enlacesPaginas::enlacePaginasModelo($enlacesController);
 
 		include $respuesta;
 	}
-
-
 }
-
-
-
 ?>
